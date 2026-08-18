@@ -117,7 +117,7 @@ Frontier generated with 50 points:
 ```
 
 **Visualization:**
-![Efficient Frontier](docs/images/frontier.png)
+![Efficient Frontier](docs/imag/efficient_frontier.png)
 
 ---
 
@@ -142,7 +142,7 @@ Conclusion: Max Sharpe dominates all metrics
 ```
 
 **Visualization:**
-![Return Distributions](docs/images/monte_carlo.png)
+![Return Distributions](docs/imag/monte_carlo.png)
 
 ---
 
