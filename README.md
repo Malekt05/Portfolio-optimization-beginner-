@@ -117,7 +117,7 @@ Frontier generated with 50 points:
 ```
 
 **Visualization:**
-![Efficient Frontier](docs/imag/efficient_frontier.png)
+![Efficient Frontier](docs/img/efficient_frontier.png)
 
 ---
 
@@ -142,14 +142,14 @@ Conclusion: Max Sharpe dominates all metrics
 ```
 
 **Visualization:**
-![Return Distributions](docs/imag/monte_carlo.png)
+![Return Distributions](docs/img/monte_carlo.png)
 
 ---
 
 ## 🔬 Key Concepts
 ### **SLSQP (Sequential Least Squares Programming)**
 
-Iterative constrained optimization algorithm. See `docs/SLSQP_METHOD.md` for deep dive.
+Iterative constrained optimization algorithm. See `docs/SLSQP.md` for deep dive.
 
 ### **Ledoit-Wolf Shrinkage**
 Stabilizes noisy covariance matrix estimates:
@@ -185,8 +185,8 @@ Using AAPL, MSFT, GOOGL (2024-01-01 to 2025-01-01):
 
 ## 📖 Documentation
 
-- **`docs/SLSQP_METHOD.md`**: Deep dive into optimization algorithm
-- **`docs/LEDOIT_WOLF.md`**: Covariance shrinkage explained
+- **`docs/SLSQP.md`**: Deep dive into optimization algorithm
+- **`docs/ledoit_wolf.md`**: Covariance shrinkage explained
 - **`docs/MATHEMATICAL_FOUNDATION.md`**: All formulas and derivations
 - **`docs/TROUBLESHOOTING.md`**: Common issues and fixes
 
