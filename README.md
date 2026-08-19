@@ -26,35 +26,24 @@ This project implements **4 progressive levels** of portfolio optimization:
 ## 📚 Project Structure
 
 ```
-portfolio-optimization-engine/
+portfolio-optimization-beginner/
 ├── src/                          # Core modules
-│   ├── data_fetcher.py          # yfinance integration
-│   ├── returns_calculator.py     # Log returns & annualization
-│   ├── covariance_estimator.py   # Ledoit-Wolf shrinkage
-│   ├── portfolio_optimizer.py    # SLSQP optimization
-│   ├── efficient_frontier.py     # Frontier generation
-│   └── monte_carlo.py            # Tail risk simulation
+│   ├── L1_calculator.py          # Log returns & annualization
+│   ├── L1_extension_streamlit.py     
+│   ├── L2_optimization.py        # SLSQP optimization
+│   ├── L3_frontier.py            # Ledoit-Wolf shrinkage +Frontier generation
+│   ├── efficient_frontier.py     # Tail risk simulation
 │
-├── notebooks/                    
-│   ├── 01_level1_basic_portfolio.ipynb
-│   ├── 02_level2_optimization.ipynb
-│   ├── 03_level2b_efficient_frontier.ipynb
-│   ├── 04_level3_ledoit_wolf.ipynb
-│   └── 05_level4_monte_carlo.ipynb
+├── notebooks/     **coming soon               
 │
 ├── examples/                     # Runnable examples
 │   ├── simple_example.py
 │   └── compare_portfolios.py
 │
-├── tests/                        # Unit tests
-│   ├── test_returns.py
-│   ├── test_optimizer.py
-│   └── test_monte_carlo.py
-│
 └── docs/                         # Deep dives
-    ├── SLSQP_METHOD.md
-    ├── LEDOIT_WOLF.md
-    └── MATHEMATICAL_FOUNDATION.md
+    ├── SLSQP.md
+    ├── Ledoit_Wolf.md
+    └── Mathematical_Foundation.md
 ```
 
 ---
@@ -186,22 +175,8 @@ Using AAPL, MSFT, GOOGL (2024-01-01 to 2025-01-01):
 ## 📖 Documentation
 
 - **`docs/SLSQP.md`**: Deep dive into optimization algorithm
-- **`docs/ledoit_wolf.md`**: Covariance shrinkage explained
+- **`docs/Ledoit_Wolf.md`**: Covariance shrinkage explained
 - **`docs/MATHEMATICAL_FOUNDATION.md`**: All formulas and derivations
-- **`docs/TROUBLESHOOTING.md`**: Common issues and fixes
-
----
-
-## 🎓 Learning Path
-
-**Recommended order:**
-
-1. Read this README
-2. Run `examples/simple_example.py`
-3. Work through `notebooks/01_level1_basic_portfolio.ipynb`
-4. Progress through notebooks sequentially
-5. Read `docs/MATHEMATICAL_FOUNDATION.md` for theory
-6. Experiment with different assets/periods
 
 ---
 
