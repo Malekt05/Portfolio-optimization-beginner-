@@ -29,10 +29,10 @@ This project implements **4 progressive levels** of portfolio optimization:
 portfolio-optimization-beginner/
 ├── src/                          # Core modules
 │   ├── L1_calculator.py          # Log returns & annualization
-│   ├── L1_extension_streamlit.py     
+│   ├── L1_extension_streamlit.py # Streamlit dashboard
 │   ├── L2_optimization.py        # SLSQP optimization
 │   ├── L3_frontier.py            # Ledoit-Wolf shrinkage +Frontier generation
-│   ├── efficient_frontier.py     # Tail risk simulation
+│   ├── L4_simulation.py          # Tail risk simulation
 │
 ├── notebooks/     **coming soon               
 │
